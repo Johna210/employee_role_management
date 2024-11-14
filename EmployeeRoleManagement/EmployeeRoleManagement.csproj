@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <Folder Include="src\Api\" />
+      <Folder Include="src\Api\EmployeeRoleManagement.Api\Controllers\" />
       <Folder Include="src\Core\" />
       <Folder Include="src\Core\EmployeeRoleManagement.Application\Responses\" />
       <Folder Include="src\Infrastructure\" />

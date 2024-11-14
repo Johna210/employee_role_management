@@ -8,9 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Infrastructure", "EmployeeRoleManagement\src\Infrastructure\EmployeeRoleManagement.Infrastructure\EmployeeRoleManagement.Infrastructure.csproj", "{8C5469DC-526B-4469-90DD-77F13791942C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmoloyeeRoleManagement.Persistence", "EmployeeRoleManagement\src\Infrastructure\EmoloyeeRoleManagement.Persistence\EmoloyeeRoleManagement.Persistence.csproj", "{2748047C-C78C-4EF0-A65A-1B642D26CEB9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Persistence", "EmployeeRoleManagement\src\Infrastructure\EmployeeRoleManagement.Persistence\EmployeeRoleManagement.Persistence.csproj", "{7021E766-8BAC-4838-B33B-5A7952620294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Api", "EmployeeRoleManagement\src\Api\EmployeeRoleManagement.Api\EmployeeRoleManagement.Api.csproj", "{39287C5A-B2DB-47C9-93EB-7E98DA320742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,13 +34,13 @@ Global
 		{8C5469DC-526B-4469-90DD-77F13791942C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5469DC-526B-4469-90DD-77F13791942C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5469DC-526B-4469-90DD-77F13791942C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7021E766-8BAC-4838-B33B-5A7952620294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7021E766-8BAC-4838-B33B-5A7952620294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7021E766-8BAC-4838-B33B-5A7952620294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7021E766-8BAC-4838-B33B-5A7952620294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39287C5A-B2DB-47C9-93EB-7E98DA320742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39287C5A-B2DB-47C9-93EB-7E98DA320742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39287C5A-B2DB-47C9-93EB-7E98DA320742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39287C5A-B2DB-47C9-93EB-7E98DA320742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
