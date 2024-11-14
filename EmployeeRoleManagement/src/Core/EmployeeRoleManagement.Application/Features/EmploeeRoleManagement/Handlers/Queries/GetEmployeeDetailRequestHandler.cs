@@ -2,6 +2,7 @@ using AutoMapper;
 using EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Contracts.Persistence;
 using EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Dtos.Employee;
 using EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Features.EmploeeRoleManagement.Requests.Queries;
+using EmployeeRoleManagement.Domain;
 using MediatR;
 
 namespace EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Features.EmploeeRoleManagement.Handlers.Queries;

@@ -4,7 +4,7 @@ namespace EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Contrac
 
 public interface IGenericRepository<T> where T : class
 {
-    Task<T> Get(Guid id);
+    Task<T?> Get(Guid id);
     Task<IReadOnlyList<T>> GetBy(Expression<Func<T, bool>> predicate);
     Task<IReadOnlyList<T>> GetAll();
     Task<bool> Exists(Guid id);

@@ -4,5 +4,5 @@ namespace EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Contrac
 
 public interface IOrganizationTreeInfrastructure
 {
-    Task<List<Organization>> BuildEmployeeOrganizationTree(List<Employee> employees);
+    List<Organization> BuildEmployeeOrganizationTree(List<Employee> employees);
 }

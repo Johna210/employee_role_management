@@ -16,6 +16,12 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-rc.2" />
     </ItemGroup>
 
     <ItemGroup>
@@ -33,16 +39,22 @@
     <ItemGroup>
       <Compile Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
       <Compile Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+      <Compile Remove="src\Infrastructure\EmployeeRoleManagement.Persistence\obj\**" />
+      <Compile Remove="src\Infrastructure\EmployeeRoleManagement.Infrastructure\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
       <EmbeddedResource Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+      <EmbeddedResource Remove="src\Infrastructure\EmployeeRoleManagement.Persistence\obj\**" />
+      <EmbeddedResource Remove="src\Infrastructure\EmployeeRoleManagement.Infrastructure\obj\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
       <None Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+      <None Remove="src\Infrastructure\EmployeeRoleManagement.Persistence\obj\**" />
+      <None Remove="src\Infrastructure\EmployeeRoleManagement.Infrastructure\obj\**" />
     </ItemGroup>
 
 </Project>

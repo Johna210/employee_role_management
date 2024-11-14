@@ -4,9 +4,12 @@ namespace EmployeeRoleManagement.Core.EmployeeRoleManagement.Application.Contrac
 
 public interface IEmployeeRepository : IGenericRepository<Employee>
 {
-    Task<Employee> GetEmployeeWithDetails(Guid id);
+    Task<Employee?> GetEmployeeWithDetails(Guid id);
     Task<List<Employee>> GetEmployeesWithDetails();
     Task<List<Employee>> GetEmployeesByRoleWithDetails(string role);
     Task ChangeEmployeeParent(Guid id, Guid newParentId);
     Task<bool> IsEmployeeRoot(string role);
+    Task<bool> IsDesendant(Guid id, Guid newParentId);
+    
+    Task ChangeEmployeeParentWithDesendant(Guid id, Guid newParentId);
 }

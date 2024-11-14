@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Domain", "EmployeeRoleManagement\src\Core\EmployeeRoleManagement.Domain\EmployeeRoleManagement.Domain.csproj", "{7F22068F-206D-4C4A-AAD6-D67A03287609}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Infrastructure", "EmployeeRoleManagement\src\Infrastructure\EmployeeRoleManagement.Infrastructure\EmployeeRoleManagement.Infrastructure.csproj", "{8C5469DC-526B-4469-90DD-77F13791942C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmoloyeeRoleManagement.Persistence", "EmployeeRoleManagement\src\Infrastructure\EmoloyeeRoleManagement.Persistence\EmoloyeeRoleManagement.Persistence.csproj", "{2748047C-C78C-4EF0-A65A-1B642D26CEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRoleManagement.Persistence", "EmployeeRoleManagement\src\Infrastructure\EmployeeRoleManagement.Persistence\EmployeeRoleManagement.Persistence.csproj", "{7021E766-8BAC-4838-B33B-5A7952620294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{7F22068F-206D-4C4A-AAD6-D67A03287609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F22068F-206D-4C4A-AAD6-D67A03287609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F22068F-206D-4C4A-AAD6-D67A03287609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5469DC-526B-4469-90DD-77F13791942C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5469DC-526B-4469-90DD-77F13791942C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5469DC-526B-4469-90DD-77F13791942C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5469DC-526B-4469-90DD-77F13791942C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2748047C-C78C-4EF0-A65A-1B642D26CEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7021E766-8BAC-4838-B33B-5A7952620294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7021E766-8BAC-4838-B33B-5A7952620294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7021E766-8BAC-4838-B33B-5A7952620294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7021E766-8BAC-4838-B33B-5A7952620294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
