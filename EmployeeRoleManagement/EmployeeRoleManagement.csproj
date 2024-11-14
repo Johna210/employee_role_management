@@ -30,4 +30,19 @@
       </Reference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
+      <Compile Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
+      <EmbeddedResource Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="src\Core\EmployeeRoleManagement.Application\obj\**" />
+      <None Remove="src\Core\EmployeeRoleManagement.Domain\obj\**" />
+    </ItemGroup>
+
 </Project>
