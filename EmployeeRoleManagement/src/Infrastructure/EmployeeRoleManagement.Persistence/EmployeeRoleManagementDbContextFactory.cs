@@ -14,7 +14,7 @@ public class EmployeeRoleManagementDbContextFactory : IDesignTimeDbContextFactor
             .Build();
         
         var optionsBuilder = new DbContextOptionsBuilder<EmployeeRoleManagementDbContext>();
-        var connectionString = configuration.GetConnectionString("EmployeeRoleManagement");
+        var connectionString = configuration.GetConnectionString("EmployeeRoleManagementConnectionString");
         
         optionsBuilder.UseNpgsql(connectionString);
         
